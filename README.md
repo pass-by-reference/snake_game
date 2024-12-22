@@ -1,6 +1,8 @@
 # snake_game
 
-A snake game written in opengl
+A snake game written in opengl.
+
+Code snippets and tutorial by [learnopengl](https://learnopengl.com/).
 
 ## Building
 
@@ -13,9 +15,15 @@ If you want to build with windows, you might have to regenerate and replace the 
 You need these prerequisites before you can build / compile
 
 `cmake`: `v3.22.1`
+
 `clang / clang++`: `Atleast v14.0.0`
+
 `opengl`: `Atleast v3.3`
 
+**Building / Compiling / Running**
+
 To build: `bash run.sh`
+
 To compile: `cd release && make`
+
 To run: `cd release && ./snake`
